@@ -1,0 +1,28 @@
+.c_remote_left_instructions{
+    text-align: right;
+    span{
+        display: inline-block;
+        padding: 7px;
+    }
+}
+.c_remote_left_word{
+    .c_remote_left_word_span{
+        display: block;
+        padding: 7px;
+    }
+}
+.c_remote_top_instructions{
+    padding-top: 10px;
+    span{
+        margin-right: 10px;
+    }
+}
+.status_div_search{
+    text-align: center;
+    width: 527px;
+    display: inline-block;
+    .status_date_pick{
+      margin: 7px 30px 20px 0px;
+      width: 220px !important;
+    }
+}

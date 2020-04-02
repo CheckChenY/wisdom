@@ -1,0 +1,129 @@
+.electricfire_box {
+  // width: 100%;
+  background-color: #ffffff;
+  width: 99%;
+  // margin: 0 auto;
+  // min-height: 800px;
+  margin-left: 10px;
+  padding: 0px 20px;
+
+  .device_dialog {
+
+    // 题目字体
+    .channal {
+      font-size: 17px;
+    }
+
+    // 查看大图按钮
+    .view_button {
+      margin-top: 15px;
+      text-align: center;
+    }
+  }
+
+  .device_dialog .electab2 .grid-content .input_label {
+    width: 142px;
+  }
+  .electab5{
+
+      .el-input{
+        margin-right: 15px;
+      }
+    .status_div{
+      margin-top: 25px
+    }
+    .chart_style{
+      height: 400px;
+      margin-top: 20px;
+    }
+    .el-date-editor{
+      .el-input{
+        margin-right: 25px;
+
+      }
+    }
+  }
+  .electab6 {
+    .el-container {
+      margin-top: 25px;
+    }
+
+    .avue-crud {
+
+      // margin-top: 25px;
+      .avue-crud__menu {
+        min-height: 0;
+      }
+    }
+  }
+  .electab7{
+    .el-date-editor{
+        margin-right: 15px;
+    }
+    .status_div{
+      margin-top: 25px
+    }
+    .chart_style{
+      height: 400px;
+      margin-top: 20px;
+    }
+  }
+  .electab3 {
+    .dialog_point_img {
+      width: 100%;
+
+      .live_photo {
+        width: 95%;
+      }
+    }
+
+    .el-col-6 {
+      padding-right: 24px;
+      margin-top: 13px;
+    }
+
+    .small_photo {
+      border: dashed 1px #dcdfe6;
+      padding: 5px 5px;
+    }
+  }
+  .status_div_search{
+    text-align: center;
+    width: 527px;
+    display: inline-block;
+    .status_date_pick{
+      margin: 7px 30px 20px 0px;
+      width: 220px !important;
+    }
+  }
+  .status_steps {
+
+    // width: 100%;
+    // padding-left: 20px;
+    // overflow: hidden;
+    .status_title {
+      display: inline-block;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    .step_style {
+      margin-bottom: 0;
+
+      .el-step__line {
+        top: 3px;
+      }
+
+      .el-step__main {
+        margin-bottom: 20px;
+      }
+    }
+
+    padding: 5px 32px;
+
+    .schedule_text {
+      color: #1890ff;
+      font-size: 14px;
+    }
+  }
+}

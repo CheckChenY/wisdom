@@ -1,0 +1,115 @@
+.industry_box {
+    // width: 100%;
+    background-color: #ffffff;
+    width: 99%;
+    // margin: 0 auto;
+    margin-left: 10px;
+    // min-height: 800px;
+    padding: 0px 20px;
+    .deivce_alert{
+      
+        .alert_box{
+            .el-dialog__body{
+                height: 650px;
+                overflow:scroll;
+            }
+        }
+    }
+    .tab_box {
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px 25px;
+
+        .butn_boxs {
+            // display: inline-block;
+
+        }
+
+        ul {
+            overflow: hidden;
+            width: 100%;
+
+            .dateBox {
+                width: 7%;
+                min-width: 473px;
+            }
+
+            .butn_boxs {
+                width:7%;
+                min-width: 185px;
+                button {
+                    background-color: #ffffff;
+                    border: solid 1px #dcdfe6;
+                    padding: 5px 25px;
+                    color:#606266;
+                    border-radius: 3px;
+                    font-size: 15px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+                .butnClass {
+                    background-color: #1890ff;
+                    color: #ffffff;
+                    border: none;
+                }
+            }
+
+            li {
+                float: left;
+                width: 29%;
+                padding-right: 25px;
+                margin-bottom: 20px;
+                min-width: 235px;
+
+                span {
+                    display: inline-block;
+                    margin-right: 15px;
+                    font-size: 14px;
+                    color: #606266;
+                }
+
+                .dateClass {
+                    display: inline-block;
+
+                    .el-date-editor {
+                        height: 32px;
+                        padding-top: 0;
+                        padding-bottom: 0;
+                    }
+                }
+                .el-input{
+                    width: 68%;
+                    .el-input__inner{
+                        width: 100%;
+                        height: 32px;
+                        color: #999999
+                    }
+                }
+                .el-select {
+                    width: 68%;
+
+                    .el-input {
+                        width: 100%;
+
+                        input {
+                            height: 32px;
+                            width: 100%;
+                        }
+
+                        span {
+                            margin-right: 0
+                        }
+                    }
+                }
+
+            }
+
+
+        }
+
+        .butn_frist {
+            margin-right: 1.25rem;
+        }
+
+    }
+}

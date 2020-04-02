@@ -1,0 +1,125 @@
+.device_dialog{
+  .grid-content{
+    display: flex;
+    margin-bottom: 20px;
+    .input_label{
+      font-size: 14px;
+      color: #333;
+      width: 380px;
+      text-align: right;
+      padding-right: 10px;
+      line-height: 40px;
+      margin-right: 0px !important;
+    }
+    .input_content{
+      font-size: 14px;
+      color: #666;
+      width: 380px;
+      text-align: right;
+      padding-right: 10px;
+      line-height: 40px;
+      margin-right: 0px !important;
+    }
+    .red {
+      color: #f56c6c;
+    }
+    .yellow {
+      color: #ffc000;
+    }
+    .xinghao:before{
+      content: '*';
+      color: #f56c6c;
+      margin-right: 4px;
+    }
+    .avatar-uploader{
+      position: relative;
+      font-size: 14px;
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  .contain_scroll {
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .el-footer {
+      text-align: center;
+      line-height: 60px;
+    }
+    .el-button{
+      color: #409eff;
+    }
+    .current_status{
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 20px;
+      height: 60px;
+      .cuttent_status_title{
+        font-size: 18px;
+      }
+      .status_handle{
+        color: #409eff;
+        width: 100px;
+      }
+    }
+    .status_steps{
+      margin: 0px 100px;
+      .step_style{
+        height: 100px;
+      }
+    }
+  }
+  .device_img{
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .img_title{
+      font-size: 17px;
+      padding-left: 20px;
+    }
+    .img_content{
+      padding: 0px 20px;
+      img{
+        width: 100%;
+      }
+    }
+    .view_button{
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  .status_record{
+    .avue-crud__menu{
+      display: none;
+    }
+  }
+  .status_div{
+    text-align: center;
+    .status_date_pick{
+      margin: 20px 30px 20px 0px;
+    }
+  }
+  .status_div_search{
+    text-align: center;
+    width: 527px;
+    display: inline-block;
+    .status_date_pick{
+      margin: 7px 30px 20px 0px;
+      width: 220px !important;
+    }
+  }
+  .status_chart{
+    height: 400px;
+  }
+  .status_record{
+    .el-card {
+      border: none;
+    }
+  }
+}

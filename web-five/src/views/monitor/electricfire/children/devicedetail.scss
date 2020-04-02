@@ -1,0 +1,53 @@
+.device_dialog{
+  .grid-content{
+    display: flex;
+    margin-bottom: 20px;
+    .input_label{
+      font-size: 14px;
+      color: #333;
+      width: 380px;
+      text-align: right;
+      padding-right: 10px;
+      line-height: 40px;
+      margin-right: 0px !important;
+    }
+    .input_content{
+      font-size: 14px;
+      color: #666;
+      width: 380px;
+      text-align: right;
+      padding-right: 10px;
+      line-height: 40px;
+      margin-right: 0px !important;
+    }
+    .red {
+      color: #f56c6c;
+    }
+    .yellow {
+      color: #ffc000;
+    }
+    .xinghao:before{
+      content: '*';
+      color: #f56c6c;
+      margin-right: 4px;
+    }
+    .avatar-uploader{
+      position: relative;
+      font-size: 14px;
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  .contain_scroller {
+    width: 100%;
+    display: inline-block;
+    // height: 400px;
+    max-height: 450px;
+    overflow: hidden;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  
+}
